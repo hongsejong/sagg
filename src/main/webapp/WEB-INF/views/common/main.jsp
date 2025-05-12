@@ -9,25 +9,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/main.css">
 
-  <!-- 광고 -->
-  <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" crossorigin="anonymous"></script>
-<script>
-  window.googletag = window.googletag || { cmd: [] };
-
-  googletag.cmd.push(() => {
-    googletag
-      .defineSlot("/6355419/Travel/Europe/France/Paris", [300, 250], "banner-ad")
-      .addService(googletag.pubads());
-    googletag.enableServices();
-  });
-</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2603913304431349"
+     crossorigin="anonymous"></script>
 
 
 </head>
 <body>
 
   <header>
-    <h1>SuddenStats</h1>
+    <h1><a href="/">SuddenStats</a></h1>
     <form action="/search" method="GET">
       <!-- <input type="text" name="nickname" placeholder="닉네임 검색..." required> -->
     </form>

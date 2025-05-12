@@ -10,11 +10,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/profile.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2603913304431349"
+     crossorigin="anonymous"></script>
 </head>
 <body>
 
 <header>
-  <h1>SuddenStats</h1>
+  <h1><a href="/">SuddenStats</a></h1>
 </header>
 
 <main>
