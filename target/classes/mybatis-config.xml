@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd" >
+<configuration>
+
+   <settings>
+      <setting name="jdbcTypeForNull" value="NULL"/>
+      <!-- 언더스코어 표기법을 자동으로 카멜표기법으로 변환해서 매핑시킴 -->      
+      <setting name="mapUnderscoreToCamelCase" value="true" />
+   </settings>
+   
+   <!--별칭작성부분 -->
+   <!--DTO 클래스의 패키지 명+ 클래스명 작성하는 것이 불편하기 때문에 짧은 별칭 부여 -->
+   <typeAliases>
+
+        
+   </typeAliases>
+   
+   <!--mapper 파일(SQL 작성되는파일) 위치 등록 부분 -->
+   <mappers>
+
+      
+   </mappers>
+
+</configuration>
